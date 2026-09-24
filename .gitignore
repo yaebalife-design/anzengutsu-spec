@@ -1,0 +1,23 @@
+# 🔴 GitHub Public。公開してよいのは site/ の中身だけ。
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+
+# 社内のもの（公開しない）
+/ツール/
+/ナレッジ/
+/社長室/
+/画像素材/
+/CLAUDE.md
+
+# wrangler
+.wrangler
+.dev.vars*
+
+# デプロイ用の薄いWorker（配信物ではない）
+/worker/
+/wrangler.jsonc
